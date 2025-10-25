@@ -10,16 +10,11 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import tat.mukhutdinov.database.ui.theme.SQLDemoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        GlobalScope.launch {
-            AppDatabase.getDatabase(applicationContext).emailDao().getAll()
-        }
         setContent {
             SQLDemoTheme {
                 Surface(
