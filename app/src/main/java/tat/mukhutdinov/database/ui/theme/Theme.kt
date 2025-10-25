@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson16.ui.theme
+package tat.mukhutdinov.database.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

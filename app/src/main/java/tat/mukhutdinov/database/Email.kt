@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson16
+package tat.mukhutdinov.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -2,16 +2,17 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "tat.mukhutdinov.lesson16"
-    compileSdk = 34
+    namespace = "tat.mukhutdinov.database"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.lesson16"
+        applicationId = "tat.mukhutdinov.database"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

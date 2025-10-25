@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson16.ui.theme
+package tat.mukhutdinov.database.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

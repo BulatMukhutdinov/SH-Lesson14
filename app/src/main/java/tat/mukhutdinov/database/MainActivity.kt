@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson16
+package tat.mukhutdinov.database
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import tat.mukhutdinov.lesson16.ui.theme.SQLDemoTheme
+import tat.mukhutdinov.database.ui.theme.SQLDemoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
